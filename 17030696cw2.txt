@@ -1,0 +1,417 @@
+Script started on 2019-02-03 16:28:38+0545
+abiral@abiral-VirtualBox:~$ mkdir -p WorldCup/{Argentina,France,Germany,Brazil, 
+Japan}
+abiral@abiral-VirtualBox:~$ ls WorldCup
+Argentina  Brazil  France  Germany  Japan
+abiral@abiral-VirtualBox:~$ cd WorldCup/Argentina
+abiral@abiral-VirtualBox:~/WorldCup/Argentina$ pwd
+/home/abiral/WorldCup/Argentina
+abiral@abiral-VirtualBox:~/WorldCup/Argentina$ touch Messi Dybala Maria
+abiral@abiral-VirtualBox:~/WorldCup/Argentina$ rm -i Messi DybabMaria
+rm: remove regular empty file 'Messi'? yes
+rm: remove regular empty file 'Dybala'? yes
+rm: remove regular empty file 'Maria'? yes
+abiral@abiral-VirtualBox:~/WorldCup/Argentina$ cd ../;rm -r Argentina
+abiral@abiral-VirtualBox:~/WorldCup$ ls
+Brazil	France	Germany  Japan
+abiral@abiral-VirtualBox:~/WorldCup$ echo"
+> Hello! I am Proud to be part of Islingtonians.
+> 14<(2+2)"
+echo
+Hello! I am proud to be part of Islingtonians.
+14<(2+2): command not found
+abiral@abiral-VirtualBox:~/WorldCup$ pwd
+/home/abiral/WorldCup
+abiral@abiral-VirtualBox:~/WorldCup$ cd Japan
+abiral@abiral-VirtualBox:~/WorldCup/Japan$ pwd;cd;pwd
+/home/abiral/WorldCup/Japan
+/home/abiral
+abiral@abiral-VirtualBox:~$ echo"
+> pwd;cd;pwd is the line break command."
+echo
+pwd;cd;pwd is the line break command. : command not found
+abiral@abiral-VirtualBox:~$ cd WorldCup/Japan
+abiral@abiral-VirtualBox:~/WorldCup/Japan$ pwd;cd ..;pwd;cd ..;pwd
+/home/abiral/WorldCup/Japan
+/home/abiral/WorldCup
+/home/abiral
+abiral@abiral-VirtualBox:~$ echo "
+>This command first displays the directory path where you're working. then changes the directory path to parent directory.Then breaks the command line. This command does so twice. "
+
+This command first displays the directory path where you're working. Then changes the directory path to parent directory.Then breaks the command line. This command does so twice. 
+abiral@abiral-VirtualBox:~$ cd;pwd
+/home/abiral
+abiral@abiral-VirtualBox:~$ ls
+17030696cw2.txt  Desktop  WorldCup
+abiral@abiral-VirtualBox:~$ ls -a
+.		 .bashrc       Desktop	      .pam_environment
+..		 ..bashrc.swp  .gnupg	      .profile
+17030696cw2.txt  .bidhan       .ICEauthority  .sudo_as_admin_successful
+.bash_history	 .cache        .local	      WorldCup
+.bash_logout	 .config       .mozilla
+abiral@abiral-VirtualBox:~$ ls -all
+total 68
+drwxr-xr-x  9 abiral abiral 4096 Feb  3 16:29 .
+drwxr-xr-x  3 root   root   4096 Dec 28 10:40 ..
+-rw-r--r--  1 abiral abiral    0 Feb  3 16:28 17030696cw2.txt
+-rw-------  1 abiral abiral 1714 Feb  3 16:27 .bash_history
+-rw-r--r--  1 abiral abiral  220 Dec 28 10:40 .bash_logout
+-rw-r--r--  1 abiral abiral    1 Jan 11 11:17 .bashrc
+-rw-r--r--  1 abiral abiral 1024 Jan 11 11:22 ..bashrc.swp
+-rw-r--r--  1 abiral abiral   56 Jan 11 10:42 .bidhan
+drwx------ 17 abiral abiral 4096 Feb  3 14:51 .cache
+drwx------ 16 abiral abiral 4096 Feb  3 13:51 .config
+drwxr-xr-x  2 abiral abiral 4096 Dec 28 10:52 Desktop
+drwx------  3 abiral abiral 4096 Dec 28 10:52 .gnupg
+-rw-------  1 abiral abiral 2152 Feb  3 14:49 .ICEauthority
+drwx------  3 abiral abiral 4096 Dec 28 10:52 .local
+drwx------  5 abiral abiral 4096 Jan  6 12:55 .mozilla
+-rw-r--r--  1 abiral abiral  306 Dec 30 12:18 .pam_environment
+-rw-r--r--  1 abiral abiral  807 Dec 28 10:40 .profile
+-rw-r--r--  1 abiral abiral    0 Feb  3 15:23 .sudo_as_admin_successful
+drwxr-xr-x  6 abiral abiral 4096 Feb  3 16:31 WorldCup
+abiral@abiral-VirtualBox:~$ echo "
+> cd changed the directoty,pwd to home directory and displays the path directory path.
+> ls displays all the files and folders of the current directory.
+> ls -a displays all files and folders along with hiddden ones from the current directory.
+> ls -all displays all the files and folders along with hidden ones and their permissions as well."
+
+cd;pwd changed the directory to home directory and displays the directory path.
+ls displays all the files and folders of the current directory.
+ls -a displays all files and folders along with hidden ones from the current directory.
+ls -all displays all the files and folders along with hidden ones and their permissions as well. 
+abiral@abiral-VirtualBox:~$ cd;pwd;cd cw2;pwd
+/home/abiral
+bash: cd: cw2: No such file or directory
+/home/abiral
+abiral@abiral-VirtualBox:~$ echo"
+> cd chnages the working directory to the mentioned directory or home and pwd d 
+isplays the working directory."
+
+cd chnages the working directory to the mentioned directory or home and pwd displays the working directory. 
+abiral@abiral-VirtualBox:~$ cd WorldCup/France
+abiral@abiral-VirtualBox:~/WorldCup/France$ touch testX testY testZ
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat > testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+fgf  f-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDabiral@abiral-VirtualBox:~/WorldCup/France$ cat > testY
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat > testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDabiral@abiral-VirtualBox:~/WorldCup/France$ cat testY
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cp testX ../Brazil
+abiral@abiral-VirtualBox:~/WorldCup/France$ cp testY ../Brazil
+abiral@abiral-VirtualBox:~/WorldCup/France$ cp testZ ../Brazil
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX test Y testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDaaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX testY testZ > testResult
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX - testY >> testResult
+
+Try: sudo apt install <deb name>
+
+abiral@abiral-VirtualBox:~/WorldCup/France$
+This is concatenating contents into two files.
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testResult
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDaaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDThis is concatenating contents into two files.
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat test[XYZ]
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDaaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/France$ echo "
+> cat[XYZ] concatenates the contents of three files while displaying. "
+
+cat[XYZ] concatenates the contents of three files while displaying. 
+abiral@abiral-VirtualBox:~/WorldCup/France$ la -l
+total 16
+-rw-r--r-- 1 abiral abiral 405 Feb  3 17:52 testResult
+-rw-r--r-- 1 abiral abiral  71 Feb  3 16:46 testX
+-rw-r--r-- 1 abiral abiral  72 Feb  3 16:48 testY
+-rw-r--r-- 1 abiral abiral  72 Feb  3 16:49 testZ
+abiral@abiral-VirtualBox:~/WorldCup/France$ chmod 000 testX
+abiral@abiral-VirtualBox:~/WorldCup/France$ ls -l testX
+---------- 1 abiral abiral 71 Feb  3 16:46 testX
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX
+cat: testX: Permission denied
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat >> testX
+bash: testX: Permission denied
+abiral@abiral-VirtualBox:~/WorldCup/France$ chmod 600 testX
+abiral@abiral-VirtualBox:~/WorldCup/France$ ls -l testX
+-rw------- 1 abiral abiral 71 Feb  3 16:46 testX
+abiral@abiral-VirtualBox:~/WorldCup/France$ cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDabiral@abiral-VirtualBox:~/WorldCup/France$ cat >> testX
+Permission granted.
+abiral@abiral-VirtualBox:~/WorldCup/France$ cd ../
+abiral@abiral-VirtualBox:~/WorldCup$ ls -ld France
+drwxr-xr-x 2 abiral abiral 4096 Feb  3 17:45 France
+abiral@abiral-VirtualBox:~/WorldCup$ chmod 000 France
+abiral@abiral-VirtualBox:~/WorldCup$ cat France/testX
+cat: France/testX: Permission denied
+abiral@abiral-VirtualBox:~/WorldCup$ touch France/newFile
+touch: cannot touch 'France/newFile': Permission denied
+abiral@abiral-VirtualBox:~/WorldCup$ lsFrance
+lsFrance: command not found
+abiral@abiral-VirtualBox:~/WorldCup$ ls France
+ls: cannot open directory 'France': Permission denied
+abiral@abiral-VirtualBox:~/WorldCup$ chmod 700 France
+abiral@abiral-VirtualBox:~/WorldCup$ ls -ld France
+drwx------ 2 abiral abiral 4096 Feb  3 17:45 France
+abiral@abiral-VirtualBox:~/WorldCup$ cat France/testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDDPermission granted.
+abiral@abiral-VirtualBox:~/WorldCup$ touch France/newFile
+abiral@abiral-VirtualBox:~/WorldCup$ ls France
+newFile  testResult  testX  testY  testZ
+abiral@abiral-VirtualBox:~/WorldCup$ cd Brazil
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep bb testX
+aaabb Aaaaa
+bbbcc Bbbbb
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command highlights the bb in testX. "
+
+Above grep command highlights the bb in testX. 
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -v bb testX
+AAAAA
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command removes all the bb from testX while displaying."
+
+Above grep command removes all the bb from testX while displaying.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -n bb testX
+1:aaabb Aaaaa
+3:bbbcc Bbbbb
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command displays bb along with the line number."
+
+Above grep command displays bb along with the line number.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -l bb *
+testX
+testY
+testZ
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command displays the files containing bb."
+
+Above grep command displays the files containing bb.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -i bb *
+testX:aaabb Aaaaa
+testX:bbbcc Bbbbb
+testX:BBBBB
+testY:aaabb Aaaaa
+testY:bbbcc Bbbbb
+testY:BBBBB
+testZ:aaabb Aaaaa
+testZ:bbbcc Bbbbb
+testZ:BBBBB
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command displays all lines from all files containing bb."
+
+Above grep command displays lines from all files containing bb.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -i BB *
+testX:aaabb Aaaaa
+testX:bbbcc Bbbbb
+testX:BBBBB
+testY:aaabb Aaaaa
+testY:bbbcc Bbbbb
+testY:BBBBB
+testZ:aaabb Aaaaa
+testZ:bbbcc Bbbbb
+testZ:BBBBB
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command displays all lines from all files containing bb."
+
+Above grep command displays lines from all files containing bb.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -c bb *
+testX:2
+testY:2
+testZ:2
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Above grep command displays the number of bb in each file."
+
+Above grep command displays the number of bb in each file.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep '^A' *
+testX:AAAAA
+testY:AAAAA
+testZ:AAAAA
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Displays all capital A in all the files."
+
+Displays all capital A in all the files.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ grep -n '^' testX
+1:aaabb Aaaaa
+2:AAAAA
+3:bbbcc Bbbbb
+4:BBBBB
+5:ff-ff Ccccc
+6:CCCCC
+7:cccdd Ddddd
+8:DDDDD
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ echo "
+> Displays content with line number."
+
+Displays content with line number.
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ alias lsR='ls -R'
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ alias
+alias lsR='ls -R'
+abiral@abiral-VirtualBox:~/WorldCup/Brazil$ cd ../
+abiral@abiral-VirtualBox:~$ lsR
+.:
+17030696cw2.txt  Desktop  WorldCup
+
+./Desktop:
+
+./WorldCup:
+Brazil	France	Germany  Japan
+
+./WorldCup/Brazil:
+testX  testY  testZ
+
+./WorldCup/France:
+newFile  testResult  testX  testY  testZ
+
+./WorldCup/Germany:
+
+./WorldCup/Japan:
+abiral@abiral-VirtualBox:~$ unalias lsR
+abiral@abiral-VirtualBox:~$ alias
+abiral@abiral-VirtualBox:~$ nano .bashrc 
+Save modified buffer?  (Answering "No" will DISCARD changes.)       
